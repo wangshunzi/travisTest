@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TravisLib_Example' do
+  pod 'TravisLib', :path => '../'
+
+  target 'TravisLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
