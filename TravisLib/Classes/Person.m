@@ -14,4 +14,7 @@
     NSLog(@"person");
 }
 
+    + (void)log2 {
+        NSLog(@"person2");
+    }
 @end

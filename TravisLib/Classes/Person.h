@@ -11,5 +11,6 @@
 @interface Person : NSObject
 
 + (void)log;
+    + (void)log2;
 
 @end
