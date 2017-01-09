@@ -1,0 +1,16 @@
+PODS:
+  - TravisLib (0.1.0)
+
+DEPENDENCIES:
+  - TravisLib (from `../`)
+
+EXTERNAL SOURCES:
+  TravisLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TravisLib: f1eb2ff82485c56922d447466a1febdb3175ebb0
+
+PODFILE CHECKSUM: 148c02312f5eec7349b57aae2ac875c1528f9eda
+
+COCOAPODS: 1.1.1

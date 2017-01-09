@@ -1,0 +1,6 @@
+framework module TravisLib {
+  umbrella header "TravisLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

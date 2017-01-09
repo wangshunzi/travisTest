@@ -12,3 +12,4 @@ language: objective-c
 script:
 - set -o pipefail && xcodebuild test -workspace Example/TravisLib.xcworkspace -scheme TravisLib-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+- open .
